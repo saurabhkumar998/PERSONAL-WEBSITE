@@ -5,9 +5,13 @@ body {
 }
 
 .topContainer {
-  background-color: #effcef;
+  /* background-color: #effcef; */
+  background-image: url('CSS\ -\ My\ Site\ Images/5.jpg');
+  background-size: cover;
   position: relative;
   padding-top: 100px;
+  height: 700px;
+  background-position: center;
 }
 
 .middle-container {
@@ -15,7 +19,7 @@ body {
 }
 
 .bottom-container {
-  background-color: #66BFBF;
+  background-color: rgb(36, 34, 34);
   padding: 50px 0 20px;
 }
 
@@ -28,19 +32,25 @@ body {
 }
 
 h1 {
-  color: #66BFBF;
+  color: black;
   font-size: 5.62rem;
   margin: 50px auto 0 auto;
   position: relative;
   top: 20px;
   font-family: 'Sacramento', cursive;
 }
+.name:hover{
+  color: white;
+}
+.position:hover{
+  color: white;
+}
 
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
-  color: #66BFBF;
-  font-weight: normal;
+  color: black;
+  font-weight: 500;
 }
 
 h3 {
@@ -49,14 +59,14 @@ h3 {
 }
 
 a {
-  color: #11999E;
+  color: white;
   font-family: 'Montserrat', sans-serif;
   margin: 10px 20px;
   text-decoration: none;
 }
 
 a:hover {
-  color: #EAF6F6;
+  color: gray;
 }
 
 .topCloud {
@@ -146,7 +156,7 @@ hr {
 
 /* -------------------- Message Me Button --------------------------*/
 .msgButton {
-  background-color: #66BFBF;
+  background-color: rgb(36, 34, 34) ;
   -webkit-border-top-left-radius: 28px;
   -moz-border-radius-topleft: 28px;
   border-top-left-radius: 28px;
@@ -174,7 +184,8 @@ hr {
 }
 
 .msgButton:hover {
-  background-color: #0a97b0;
+  background-color: white;
+  color:  rgb(36, 34, 34);
 }
 
 .msgButton:active {
@@ -193,3 +204,4 @@ hr {
   padding: 20px 0;
   font-weight: lighter;
 }
+
